@@ -34,7 +34,7 @@ class Fraction(object):
             return str(self.num) + "/" + str(self.den)        
 
     def __float__(self):
-        return float(self.numerator)/float(self.denominator)
+        return float(self.num)/float(self.den)
 
     @property
     def eval(self):
